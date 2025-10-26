@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(),tailwindcss(),viteSingleFile()],
   server: {
     proxy: {
-      '/api': 'https://dev277185.service-now.com/', // ServiceNow instance URL for data requests
+      '/api': 'https://dev316614.service-now.com/', // ServiceNow instance URL for data requests
     }
   },
   build: {

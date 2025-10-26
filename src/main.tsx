@@ -18,7 +18,7 @@ function Container() {
       console.log('DEV MODE - set default username and password ',axios.defaults.auth)
       setToken('dev mode')
     } else {
-      axios.get('/api/x_7998_react/react/get_token')
+      axios.get('/api/x_1122545_react_0/react_app/get_token')
         .then( r =>{
           axios.defaults.headers['X-userToken'] = r.data.result.sessionToken
           console.log('PROD MODE - recieved ServiceNow token: ',r.data.result.sessionToken)
